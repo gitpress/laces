@@ -1,0 +1,22 @@
+/* *****************************************
+*  EXAMPLE STYLES TO HELP DEMO JS
+* *****************************************/
+
+body {
+  color: #fff;
+}
+
+.green {
+  padding:30px;
+  background-color: #09afad;
+}
+
+.blue {
+  padding:30px;
+  background-color: #1485CC;
+}
+
+.red {
+  padding:30px;
+  background-color: #E82C0C;
+}

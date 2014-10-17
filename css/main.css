@@ -9,6 +9,7 @@ body {
 .green {
   padding:30px;
   background-color: #09afad;
+  border: 5px grey solid;
 }
 
 .blue {
@@ -19,4 +20,8 @@ body {
 .red {
   padding:30px;
   background-color: #E82C0C;
+}
+
+.test {
+  color: pink !important;
 }

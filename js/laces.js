@@ -6,9 +6,21 @@
 $(document).ready(function() {
   "use strict";
   
-  $( "div" ).filter( ".col-md-12" ).toggleClass("col-md-10");
   
-  $( "div" ).filter( ".col-md-6" ).toggleClass("col-md-5"); 
+  $( ".col-md-5" ).addClass( "col-md-4" );
+  $( ".col-md-6" ).addClass( "col-md-5" );
+  $( ".col-md-8" ).addClass( "col-md-6" );
+  $( ".col-md-12" ).addClass( "col-md-10" );
   
-  $( "div" ).filter( ".col-md-8" ).toggleClass("col-md-6");  
+  
+  /*
+  var locator = $(".row > div").attr('class').split(" ");
+  console.log(locator);
+  var x = locator[0].toString();
+  console.log(x)
+  */
+  
+  
 });
+
+
